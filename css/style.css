@@ -50,10 +50,15 @@ span.big {
 
 main {
   display: block;
-  max-width: 1000px;
-  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .grid-container {
   display: grid;
+  max-width: 1000px;
 }
