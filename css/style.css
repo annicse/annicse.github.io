@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'chalk';
+    src: url('../fonts/kgsecondchancessketch-webfont.woff2') format('woff2'),
+         url('../fonts/kgsecondchancessketch-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'chalk', arial;
+  color: #a0a0a0;
+  background-image: radial-gradient(#797979 1px, transparent 1px), url(../images/bg.png);
+  background-position: 0 0;
+  background-size: 45px 45px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-family: monospace;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+a {
+  color: #bb6316;
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: #ff7700;
+}
+
+span.big {
+  font-size: 30px;
+  font-family: 'chalk', arial;  
+}
+
+main {
+  display: block;
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.grid-container {
+  display: grid;
+}
